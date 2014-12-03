@@ -337,7 +337,7 @@ html,body {
 	top: 50%;
 	left: 50%;
 	margin-left: -250px;
-	margin-top: -4px;
+	margin-top: 34px;
 }
 .section-pannel-2 .freeFood .inner{
 	width: 502px;
@@ -450,20 +450,6 @@ html,body {
 }
 
 
-.section-pannel-3 .tip-3{
-	position: absolute;
-	z-index: 10;
-	top: 50%;
-	left: 50%;
-	margin-left: -250px;
-	margin-top: -4px;
-}
-
-.section-pannel-3 .tip-3 .inner{
-	width: 425px;
-	height:130px;
-	background: url(../img/tip-3.png) no-repeat;
-}
 
 .section-pannel-3 .trashcan3{
 	position: absolute;
@@ -479,6 +465,23 @@ html,body {
 	background: url(../img/trashcan.png) no-repeat;
 }
 
+
+.section-pannel-3 .tip-3{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: -4px;
+}
+
+.section-pannel-3 .tip-3 .inner{
+	width: 425px;
+	height:130px;
+	background: url(../img/tip-3.png) no-repeat;
+}
+
+
 .section-pannel-3 .tip3{
 	position: absolute;
 	width: 100%;
@@ -488,5 +491,144 @@ html,body {
 	margin-top: 204px;
 }
 .section-pannel-3 .tip3 div{
+	margin-top:20px;
+}
+
+/***/
+.section-pannel-4{
+	background:#26abdf;
+}
+
+
+.section-pannel-4 .door{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -277px;
+	margin-top: -450px;
+}
+.section-pannel-4 .door .inner{
+	width: 576px;
+	height:413px;
+	background: url(../img/door.png) no-repeat;
+}
+.section-pannel-4 .tip-4{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: -4px;
+}
+
+.section-pannel-4 .tip-4 .inner{
+	width: 425px;
+	height:130px;
+	background: url(../img/tip-4.png) no-repeat;
+}
+
+
+.section-pannel-4 .tip4{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	text-align:center;
+	margin-top: 204px;
+}
+.section-pannel-4 .tip4 div{
+	margin-top:20px;
+}
+
+
+/****/
+
+.section-pannel-5{
+	background:#e75190;
+}
+
+.section-pannel-5 .shadow5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -61px;
+}
+.section-pannel-5 .shadow5 .inner{
+	width: 521px;
+	height:51px;
+	background: url(../img/shadow.png) no-repeat;
+}
+
+.section-pannel-5 .boy5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -137px;
+	margin-top: -429px;
+}
+.section-pannel-5 .boy5 .inner{
+	width: 137px;
+	height:396px;
+	background: url(../img/boy5.png) no-repeat;
+}
+
+
+.section-pannel-5 .girl5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -4px;
+	margin-top: -429px;
+}
+.section-pannel-5 .girl5 .inner{
+	width: 171px;
+	height:393px;
+	background: url(../img/girl5.png) no-repeat;
+}
+
+.section-pannel-5 .car5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: 145px;
+	margin-top: -69px;
+}
+.section-pannel-5 .car5 .inner{
+	width: 135px;
+	height:60px;
+	background: url(../img/car5.png) no-repeat;
+}
+
+.section-pannel-5 .tip-5{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: 34px;
+}
+
+.section-pannel-5 .tip-5 .inner{
+	width: 465px;
+	height:113px;
+	background: url(../img/tip-5.png) no-repeat;
+}
+
+
+.section-pannel-5 .tip5{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	text-align:center;
+	margin-top: 204px;
+}
+.section-pannel-5 .tip5 div{
 	margin-top:20px;
 }
