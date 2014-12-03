@@ -6,7 +6,7 @@
 		<link media="all" rel="stylesheet" href="css/style.css" type="text/css" />
 		<!--[if lte IE 9]>
 		<script>
-			document.write("你多浏览器过于陈旧,请使用最新浏览器观看");
+			document.write("浏览器过于陈旧,请使用最新浏览器观看");
 			setTimeout(function(){
 			location.href='http://www.ksyun.com/console/system/browser'
 			},500);
@@ -51,9 +51,9 @@
 						var tip1 = TweenMax.from('.tip-1', 0.4, {y: height, z:0, ease: Quad.easeNone});
 						var money1 = TweenMax.from('.money-1', .4, {left: -width, z:0, ease: Linear.easeNone});
 						var money2 = TweenMax.from('.money-2', .4, {left: width, z:0, ease: Linear.easeNone});
-						var money3 = TweenMax.from('.money-3', 1, {y: -2000, z:0, ease: Quad.easeIn,repeat:2});
+						var money3 = TweenMax.from('.money-3', 0.8, {y: -2000, z:0, ease: Quad.easeIn,repeat:2});
 
-						var scene1 = new TimelineMax().add(logo).add(tip1).add([money1,money2]).add(money3);
+						var scene = new TimelineMax().add(logo).add(tip1).add([money1,money2]).add(money3);
 					});
 					scene_1.on('leave',function(){
 						$('#section-1 .section-box').removeClass('show').addClass('hidden');
@@ -88,7 +88,7 @@
 				<div class="freeFood" >
 					<div class="inner"></div>
 				</div>
-				<div class="tip">
+				<div class="tip2">
 					<div class='big-text'>精心搭配  一日三餐</div>
 					<div style="font-size:1.6em">向地沟油和路边摊说不</div>
 				</div>
@@ -106,14 +106,151 @@
 						var trashcan = TweenMax.from('.trashcan', 0.3, {left: -width, z:0, ease: Linear.easeNone});
 						var board = TweenMax.from('.board', 0.3, {left: width, z:0, ease: Linear.easeNone});
 						var freeFood = TweenMax.from('.freeFood', 0.5, {y: height, z:0, ease: Linear.easeNone});
-						var tip = TweenMax.from('.tip', 0.3, {y: height, z:0, ease: Linear.easeNone});
-						var scene1 = new TimelineMax().add(kitchener).add([desktop,shadow]).add(food).add([trashcan,board]).add(freeFood).add(tip);
+						var tip2 = TweenMax.from('.tip2', 0.3, {y: height, z:0, ease: Linear.easeNone});
+						var scene = new TimelineMax().add(kitchener).add([desktop,shadow]).add(food).add([trashcan,board]).add(freeFood).add(tip2);
 					});
 
 					scene_2.on('leave',function(){
 						$('#section-2 .section-box').removeClass('show').addClass('hidden');
 					});
+				})();
+			</script>
+		</div>
 
+
+		<div id="section-3" class='section section-pannel-3'>
+			<div class="section-box hidden">
+				<div class="boy" >
+					<div class="inner"></div>
+				</div>
+				<div class="fitness1" >
+					<div class="inner"></div>
+				</div>
+				<div class="fitness2" >
+					<div class="inner"></div>
+				</div>
+				<div class="trashcan3" >
+					<div class="inner"></div>
+				</div>
+				<div class="fitness3" >
+					<div class="inner"></div>
+				</div>
+				<div class="fitness4" >
+					<div class="inner"></div>
+				</div>
+
+				<div class="tip-3" >
+					<div class="inner"></div>
+				</div>
+				<div class="tip3">
+					<div class='big-text'>奔跑吧 少年</div>
+					<div style="font-size:1.6em">向大肚腩说不</div>
+				</div>
+			</div>
+			<div class="center"></div>
+			<script type="text/javascript">
+				(function(){
+					var scene_1 = new  ScrollScene({triggerElement:'#section-3', duration: height}).addTo(controller);
+					scene_1.on('enter',function(){
+						$('#section-3 .section-box').removeClass('hidden').addClass('show');
+						var boy = TweenMax.from('.boy', 0.3, {y: -height, z:0, ease: Quad.easeNone});
+						var fitness1 = TweenMax.from('.fitness1', 0.3, {y: -height, z:0, ease: Quad.easeNone});
+						var fitness2 = TweenMax.from('.fitness2', 0.3, {y: -height, z:0, ease: Quad.easeNone});
+						var trashcan = TweenMax.from('.trashcan3', 0.4, {y: -height, z:0, ease: Linear.easeNone});
+						var fitness3 = TweenMax.from('.fitness3', 0.4, {y: -height, z:0, ease: Quad.easeNone});
+						var fitness4 = TweenMax.from('.fitness4', 0.5, {y: -height, z:0, ease: Quad.easeNone});
+
+						var tip_3 = TweenMax.from('.tip-3', 0.4, {y: height, z:0, ease: Quad.easeNone});
+						var tip3 = TweenMax.from('.tip3', 0.4, {y: height, z:0, ease: Quad.easeNone});
+
+
+						var scene = new TimelineMax().add([fitness1,fitness2,trashcan]).add([fitness3,fitness4]).add(boy).add(tip_3).add(tip3);
+					});
+					scene_1.on('leave',function(){
+						$('#section-3 .section-box').removeClass('show').addClass('hidden');
+					});
+
+				})();
+			</script>
+		</div>
+
+		<div id="section-4" class='section section-pannel-4'>
+			<div class="section-box hidden">
+				<div class="door" >
+					<div class="inner"></div>
+				</div>
+				<div class="tip-4" >
+					<div class="inner"></div>
+				</div>
+				<div class="tip4">
+					<div class='big-text'>弹性上下班时间</div>
+					<div style="font-size:1.6em">向拥挤的早高峰说不</div>
+				</div>
+			</div>
+			<div class="center"></div>
+			<script type="text/javascript">
+				(function(){
+					var scene_4 = new  ScrollScene({triggerElement:'#section-4', duration: height}).addTo(controller);
+					scene_4.on('enter',function(){
+						$('#section-4 .section-box').removeClass('hidden').addClass('show');
+						var door = TweenMax.from('.door', 0.3, {y: -height, z:0, ease: Quad.easeNone});
+
+						var tip_4 = TweenMax.from('.tip-4', 0.4, {y: height, z:0, ease: Quad.easeNone});
+						var tip4 = TweenMax.from('.tip4', 0.4, {y: height, z:0, ease: Quad.easeNone});
+
+
+						var scene = new TimelineMax().add(door).add(tip_4).add(tip4);
+					});
+					scene_4.on('leave',function(){
+						$('#section-4 .section-box').removeClass('show').addClass('hidden');
+					});
+
+				})();
+			</script>
+		</div>
+
+		<div id="section-5" class='section section-pannel-5'>
+			<div class="section-box hidden">
+				<div class="shadow5" >
+					<div class="inner"></div>
+				</div>
+				<div class="boy5" >
+					<div class="inner"></div>
+				</div>
+				<div class="girl5" >
+					<div class="inner"></div>
+				</div>
+
+				<div class="car5" >
+					<div class="inner"></div>
+				</div>
+				<div class="tip-5" >
+					<div class="inner"></div>
+				</div>
+				<div class="tip5">
+					<div class='big-text'>有帅哥美女陪伴</div>
+					<div style="font-size:1.6em">他们都单身</div>
+				</div>
+			</div>
+			<div class="center"></div>
+			<script type="text/javascript">
+				(function(){
+					var scene_5 = new  ScrollScene({triggerElement:'#section-5', duration: height}).addTo(controller);
+					scene_5.on('enter',function(){
+						$('#section-5 .section-box').removeClass('hidden').addClass('show');
+						var boy5 = TweenMax.from('.boy5', 0.5, {left: -width, z:0, ease: Quad.easeNone});
+						var girl5 = TweenMax.from('.girl5', 0.5, {left: width, z:0, ease: Quad.easeNone});
+						var car5 = TweenMax.from('.car5', 0.5, {left: -width, z:0, ease: Quad.easeNone});
+
+						var tip_5 = TweenMax.from('.tip-5', 0.4, {y: height, z:0, ease: Quad.easeNone});
+						var tip5 = TweenMax.from('.tip5', 0.4, {y: height, z:0, ease: Quad.easeNone});
+
+
+						var scene = new TimelineMax().add([boy5,girl5]).add(car5).add(tip_5).add(tip5);
+					});
+					scene_5.on('leave',function(){
+						$('#section-5 .section-box').removeClass('show').addClass('hidden');
+					});
 
 				})();
 			</script>

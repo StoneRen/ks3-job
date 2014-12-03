@@ -199,10 +199,6 @@ html,body {
 	width: 227px;
 	height:228px;
 	background: url(../img/logo.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 
@@ -218,10 +214,6 @@ html,body {
 	width: 556px;
 	height:717px;
 	background: url(../img/tip-1.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-1 .money-1{
@@ -236,10 +228,6 @@ html,body {
 	width: 75px;
 	height:85px;
 	background: url(../img/money-1.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-1 .money-2{
@@ -254,10 +242,6 @@ html,body {
 	width: 98px;
 	height:112px;
 	background: url(../img/money-2.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 
@@ -273,10 +257,6 @@ html,body {
 	width: 513px;
 	height:220px;
 	background: url(../img/money-3.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 
@@ -296,10 +276,6 @@ html,body {
 	width: 238px;
 	height:417px;
 	background: url(../img/kitchener.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-2 .desktop{
@@ -314,10 +290,6 @@ html,body {
 	width: 483px;
 	height:201px;
 	background: url(../img/desktop.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-2 .food{
@@ -332,10 +304,6 @@ html,body {
 	width: 391px;
 	height:105px;
 	background: url(../img/food.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-2 .trashcan{
@@ -350,10 +318,6 @@ html,body {
 	width: 61px;
 	height:110px;
 	background: url(../img/trashcan.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-2 .board{
@@ -368,10 +332,6 @@ html,body {
 	width: 95px;
 	height:114px;
 	background: url(../img/board.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-2 .freeFood{
@@ -380,16 +340,12 @@ html,body {
 	top: 50%;
 	left: 50%;
 	margin-left: -250px;
-	margin-top: -4px;
+	margin-top: 34px;
 }
 .section-pannel-2 .freeFood .inner{
 	width: 502px;
 	height:113px;
 	background: url(../img/freeFood.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
 .section-pannel-2 .shadow{
@@ -404,13 +360,9 @@ html,body {
 	width: 521px;
 	height:51px;
 	background: url(../img/shadow.png) no-repeat;
-	-webkit-transition: -webkit-transform 700ms ease-out;
-	-webkit-transform: translate3d(0, 75px, 0);
-	transition: transform 700ms ease-out;
-	transform: translate(0, 75px);
 }
 
-.section-pannel-2 .tip{
+.section-pannel-2 .tip2{
 	position: absolute;
 	width: 100%;
 	z-index: 10;
@@ -418,7 +370,7 @@ html,body {
 	text-align:center;
 	margin-top: 204px;
 }
-.section-pannel-2 .tip div{
+.section-pannel-2 .tip2 div{
 	margin-top:20px;
 }
 
@@ -928,3 +880,263 @@ html,body {
 }
 /** section-11 结束 **/
 
+/**/
+.section-pannel-3{
+	background:#9bd400;
+}
+
+.section-pannel-3 .boy{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -80px;
+	margin-top: -455px;
+}
+.section-pannel-3 .boy .inner{
+	width: 182px;
+	height:393px;
+	background: url(../img/boy.png) no-repeat;
+}
+
+
+.section-pannel-3 .fitness1{
+	position: absolute;
+	z-index: 101;
+	top: 50%;
+	left: 50%;
+	margin-left: 100px;
+	margin-top: -100px;
+}
+.section-pannel-3 .fitness1 .inner{
+	width: 122px;
+	height:75px;
+	background: url(../img/fitness1.png) no-repeat;
+}
+
+.section-pannel-3 .fitness2{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -261px;
+	margin-top: -336px;
+}
+.section-pannel-3 .fitness2 .inner{
+	width: 285px;
+	height:225px;
+	background: url(../img/fitness2.png) no-repeat;
+}
+
+
+.section-pannel-3 .fitness3{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: 138px;
+	margin-top: -336px;
+}
+.section-pannel-3 .fitness3 .inner{
+	width: 147px;
+	height:291px;
+	background: url(../img/fitness3.png) no-repeat;
+}
+
+.section-pannel-3 .fitness4{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: 61px;
+	margin-top: -142px;
+}
+.section-pannel-3 .fitness4 .inner{
+	width: 173px;
+	height:81px;
+	background: url(../img/fitness4.png) no-repeat;
+}
+
+
+
+.section-pannel-3 .trashcan3{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -209px;
+	margin-top: -175px;
+}
+.section-pannel-3 .trashcan3 .inner{
+	width: 61px;
+	height:110px;
+	background: url(../img/trashcan.png) no-repeat;
+}
+
+
+.section-pannel-3 .tip-3{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: -4px;
+}
+
+.section-pannel-3 .tip-3 .inner{
+	width: 425px;
+	height:130px;
+	background: url(../img/tip-3.png) no-repeat;
+}
+
+
+.section-pannel-3 .tip3{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	text-align:center;
+	margin-top: 204px;
+}
+.section-pannel-3 .tip3 div{
+	margin-top:20px;
+}
+
+/***/
+.section-pannel-4{
+	background:#26abdf;
+}
+
+
+.section-pannel-4 .door{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -277px;
+	margin-top: -450px;
+}
+.section-pannel-4 .door .inner{
+	width: 576px;
+	height:413px;
+	background: url(../img/door.png) no-repeat;
+}
+.section-pannel-4 .tip-4{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: -4px;
+}
+
+.section-pannel-4 .tip-4 .inner{
+	width: 425px;
+	height:130px;
+	background: url(../img/tip-4.png) no-repeat;
+}
+
+
+.section-pannel-4 .tip4{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	text-align:center;
+	margin-top: 204px;
+}
+.section-pannel-4 .tip4 div{
+	margin-top:20px;
+}
+
+
+/****/
+
+.section-pannel-5{
+	background:#e75190;
+}
+
+.section-pannel-5 .shadow5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -61px;
+}
+.section-pannel-5 .shadow5 .inner{
+	width: 521px;
+	height:51px;
+	background: url(../img/shadow.png) no-repeat;
+}
+
+.section-pannel-5 .boy5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -137px;
+	margin-top: -429px;
+}
+.section-pannel-5 .boy5 .inner{
+	width: 137px;
+	height:396px;
+	background: url(../img/boy5.png) no-repeat;
+}
+
+
+.section-pannel-5 .girl5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -4px;
+	margin-top: -429px;
+}
+.section-pannel-5 .girl5 .inner{
+	width: 171px;
+	height:393px;
+	background: url(../img/girl5.png) no-repeat;
+}
+
+.section-pannel-5 .car5{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: 145px;
+	margin-top: -69px;
+}
+.section-pannel-5 .car5 .inner{
+	width: 135px;
+	height:60px;
+	background: url(../img/car5.png) no-repeat;
+}
+
+.section-pannel-5 .tip-5{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: 34px;
+}
+
+.section-pannel-5 .tip-5 .inner{
+	width: 465px;
+	height:113px;
+	background: url(../img/tip-5.png) no-repeat;
+}
+
+
+.section-pannel-5 .tip5{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	text-align:center;
+	margin-top: 204px;
+}
+.section-pannel-5 .tip5 div{
+	margin-top:20px;
+}
