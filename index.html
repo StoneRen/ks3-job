@@ -255,6 +255,50 @@
 				})();
 			</script>
 		</div>
+
+		<div id="section-6" class='section section-pannel-6'>
+			<div class="section-box hidden">
+				<div class="welcome" >
+					<div class="inner"></div>
+				</div>
+
+				<div class="tree-1" >
+					<div class="inner"></div>
+				</div>
+				<div class="tree-2" >
+					<div class="inner"></div>
+				</div>
+				
+				<div class="tip-6" >
+					<div class="inner"></div>
+				</div>
+				<div class="tip6">
+					<div class='big-text'>依托金山 小米 两大平台优势</div>
+					<div style="font-size:1.6em">剑指500亿手游市场</div>
+					<div style="font-size:1.6em">打造下一个百亿级公司</div>
+				</div>
+			</div>
+			<div class="center"></div>
+			<script type="text/javascript">
+				(function(){
+					var scene_6 = new  ScrollScene({triggerElement:'#section-6', duration: height}).addTo(controller);
+					scene_6.on('enter',function(){
+						$('#section-6 .section-box').removeClass('hidden').addClass('show');
+						var tree1 = TweenMax.from('.tree-1', 0.5, {left: -width, z:0, ease: Quad.easeNone});
+						var tree2 = TweenMax.from('.tree-2', 0.5, {left: width, z:0, ease: Quad.easeNone});
+						var welcome = TweenMax.from('.welcome', 0.5, {left: width, z:0, ease: Quad.easeNone});
+						var tip_6 = TweenMax.from('.tip-6', 0.4, {y: height, z:0, ease: Quad.easeNone});
+						var tip6 = TweenMax.from('.tip6', 0.4, {y: height, z:0, ease: Quad.easeNone});
+						
+						var scene = new TimelineMax().add(welcome).add([tree1,tree2]).add(tip_6).add(tip6);
+					});
+					scene_6.on('leave',function(){
+						$('#section-6 .section-box').removeClass('show').addClass('hidden');
+					});
+
+				})();
+			</script>
+		</div>
 		
 		<div id="section-7" class='section section-pannel-7 '>
 			<div class="section-box hidden">
