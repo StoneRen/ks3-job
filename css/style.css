@@ -25,7 +25,10 @@ body {
 	font-size:16px;
 	color:#fff;
 }
-
+html,
+body {
+	min-height: 100%;
+}
 .big-text{
 	font-size:2em;
 }
@@ -419,4 +422,509 @@ html,body {
 	margin-top:20px;
 }
 
+.p-shadow {
+	width: 521px;
+	height: 52px;
+	position: absolute;
+	background: url(../img/shadow.png) no-repeat;
+	left: 50%;
+	margin-left: -260px;
+	top: 50%;
+	opacity: 1;
+	z-index: 10;
+}
+/** section-7 **/
+.section-pannel-7 {
+	background: #f15f5f;
+}
+.section-pannel-7 .section-box div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.section-pannel-7 .recom-box {
+	width: 401px;
+	height: 311px;
+	background: url('../img/6/layer6_04.png') no-repeat;
+	margin-left: -200px;
+	margin-top: -255px;
+	z-index: 14
+}
+.section-pannel-7 .recom-person {
+	width: 126px;
+	height: 305px;
+	background: url('../img/6/layer6_05.png') no-repeat;
+	margin-left: -5px;
+	margin-top: -305px;
+	opacity: 1;
+}
+.section-pannel-7 .recom-handle {
+	width: 481px;
+	height: 466px;
+	background: url('../img/6/layer6_03.png') no-repeat;
+	margin-left: -205px;
+	margin-top: -390px;
+	z-index: 15;
+}
+.section-pannel-7 .recomm-circle {
+	width: 47px;
+	height: 62px;
+	background: url('../img/6/layer6_06.png') no-repeat;
+	margin-left: -130px;
+	margin-top: 5px;
+	z-index: 14;
+}
+.section-pannel-7 .recomm-taper {
+	width: 64px;
+	height: 70px;
+	background: url('../img/6/layer6_07.png') no-repeat;
+	margin-left: 105px;
+	margin-top: 5px;
+	z-index: 14;
+}
+.section-pannel-7 .recomm-word {
+	width: 369px;
+	height: 116px;
+	background: url('../img/6/layer6_08.png') no-repeat;
+	margin-left: -185px;
+	margin-top: 100px;
+}
+.section-pannel-7 .shadow7 {
+	margin-top: 30px;
+}
+.section-pannel-7 .tip7 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	font-size: 1.6rem;
+	margin-top: 250px;
+	line-height: 1.8
+}
+/** section-7 结束 **/
+/** section-8 **/
+
+.section-pannel-8 {
+	background: #00c1a3;
+}
+.section-pannel-8 .section-box div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.section-pannel-8 .tech-desk {
+	width: 530px;
+	height: 238px;
+	background: url(../img/7/layer7_04.png) no-repeat;
+	margin-left: -275px;
+	margin-top: -235px;
+	z-index: 16;
+}
+.section-pannel-8 .tech-chair {
+	width: 161px;
+	height: 245px;
+	background: url(../img/7/layer7_03.png) no-repeat;
+	margin-left: -70px;
+	margin-top: -255px;
+	z-index: 13;
+}
+.section-pannel-8 .tech-person {
+	width: 103px;
+	height: 320px;
+	background: url(../img/7/layer7_02.png) no-repeat;
+	margin-left: -50px;
+	margin-top: -325px;
+	z-index: 14;
+}
+.section-pannel-8 .tech-map {
+	width: 530px;
+	height: 206px;
+	background: url(../img/7/layer7_01.png) no-repeat;
+	margin-left: -275px;
+	margin-top: -420px;
+}
+.section-pannel-8 .tech-trash {
+	width: 124px;
+	height: 92px;
+	background: url(../img/7/layer7_06.png) no-repeat;
+	margin-left: -270px;
+	margin-top: -70px;
+	z-index: 17;
+}
+.section-pannel-8 .tech-laptop {
+	width: 130px;
+	height: 108px;
+	background: url(../img/7/layer7_05.png) no-repeat;
+	margin-left: 105px;
+	margin-top: -90px;
+	z-index: 17;
+}
+.section-pannel-8 .tech-word1 {
+	width: 130px;
+	height: 98px;
+	background: url(../img/9/layer9_06.png) no-repeat;
+	margin-left: -135px;
+	margin-top: 50px;
+}
+.section-pannel-8 .tech-word2 {
+	width: 147px;
+	height: 78px;
+	background: url(../img/7/layer7_07.png) no-repeat;
+	margin-left: 10px;
+	margin-top: 65px;
+}
+.section-pannel-8 .shadow8 {
+	margin-top: -30px;
+}
+.section-pannel-8 .tip8 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	margin-top: 185px;
+	font-size: 1.6rem;
+}
+.section-pannel-8 .tip8 p {
+	margin-top: 20px;
+}
+.section-pannel-8 .tip8 .left-tip {
+	position: absolute;	
+	text-align: left;
+	left: 50%;
+	margin-left: -270px;
+}
+.section-pannel-8 .right-tip {
+	position: absolute;
+	text-align: left;
+	margin-left: 50px;
+}
+/** section-8 结束 **/ 
+
+
+/** section-9 **/
+.section-pannel-9 {
+	background: #9042b0;
+}
+.section-pannel-9 .section-box div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.section-pannel-9 .opr-chart {
+	width: 541px;
+	height: 396px;
+	background: url(../img/8/layer8_01.png) no-repeat;
+	margin-left: -275px;
+	margin-top: -390px;
+}
+.section-pannel-9 .opr-kpi {
+	width: 206px;
+	height: 141px;
+	background: url(../img/8/layer8_03.png) no-repeat;
+	margin-left: 55px;
+	margin-top: -370px;
+}
+.section-pannel-9 .opr-person {
+	width: 134px;
+	height: 280px;
+	background: url(../img/8/layer8_02.png) no-repeat;
+	margin-left: -115px;
+	margin-top: -290px;
+}
+.section-pannel-9 .opr-desk {
+	width: 489px;
+	height: 235px;
+	background: url(../img/8/layer8_04.png) no-repeat;
+	margin-left: -245px;
+	margin-top: -208px;
+	z-index: 13;
+}
+.section-pannel-9 .opr-taper {
+	width: 60px;
+	height: 77px;
+	background: url(../img/9/layer9_07.png) no-repeat;
+	margin-left: -250px;
+	margin-top: -42px;
+	z-index: 14;
+}
+.section-pannel-9 .opr-shield {
+	width: 105px;
+	height: 89px;
+	background: url(../img/8/layer8_05.png) no-repeat;
+	margin-left: 155px;
+	margin-top: -50px;
+	z-index: 14;
+}
+.section-pannel-9 .opr-word1 {
+	width: 130px;
+	height: 98px;
+	background: url(../img/9/layer9_06.png) no-repeat;
+	margin-left: -135px;
+	margin-top: 70px;
+}
+.section-pannel-9 .opr-word2 {
+	width: 146px;
+	height: 81px;
+	background: url(../img/8/layer8_06.png) no-repeat;
+	margin-left: 15px;
+	margin-top: 88px;
+}
+.section-pannel-9 .tip10 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 245px;
+	left: 0!important;
+}
+.section-pannel-9 .tip10 p {
+	position: absolute;
+	width: 100%;
+}
+/** section-9 结束 **/
+
+/** section-10 **/
+.section-pannel-10 {
+	background: #8747f1;
+}
+.section-pannel-10 .mapbg {
+	width: 520px;
+	height: 253px;
+	background: url(../img/9/layer9_02.png) no-repeat;
+	position: absolute;
+	left: 50%;
+	margin-left: -260px;
+	margin-top: -380px;
+	top: 50%;
+}
+.section-pannel-10 .busperson {
+	position: absolute;
+	width: 115px;
+	height: 392px;
+	background: url(../img/9/layer9_01.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	z-index: 13;
+	margin-top: -350px;
+}
+.section-pannel-10 .cmpdesk {
+	position: absolute;
+	width: 530px;
+	height: 237px;
+	background: url(../img/9/layer9_03.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-top: -215px;
+	margin-left: -267px;
+	z-index: 12;
+}
+.section-pannel-10 .trip {
+	position: absolute;
+	width: 342px;
+	height: 139px;
+	background: url(../img/9/layer9_05.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: -172px;
+	z-index: 14;
+	margin-top: -158px;
+}
+.section-pannel-10 .left-car {
+	position: absolute;
+	width: 117px;
+	height: 63px;
+	background: url(../img/9/layer9_04.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: -260px;
+	z-index: 12;
+	margin-top: -12px;
+}
+.section-pannel-10 .right-taper {
+	position: absolute;
+	width: 60px;
+	height: 77px;
+	background: url(../img/9/layer9_07.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: 180px;
+	z-index: 12;
+	margin-top: -22px;
+}
+.section-pannel-10 .bs-word1 {
+	position: absolute;
+	width: 130px;
+	height: 98px;
+	background: url(../img/9/layer9_06.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: -135px;
+	margin-top: 70px;
+}
+.section-pannel-10 .bs-word2 {
+	position: absolute;
+	width: 147px;
+	height: 75px;
+	background: url(../img/9/layer9_08.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: 15px;
+	margin-top: 85px;
+}
+.section-pannel-10 .tip10 {
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	margin-top: 275px;
+	font-size: 1.6rem;
+	width: 100%;
+}
+.section-pannel-10 .tip10 p {
+	position: absolute;
+	width: 100%;
+
+}
+.plat-mng {
+	margin-left: -185px;
+}
+.storage-mng {
+	margin-left: 130px;
+}
+.market-mng {
+	margin-left: -185px;
+	margin-top: 60px;
+}
+.forum-mng {
+	margin-left: 130px;
+	margin-top: 60px;
+}
+/** section-10 结束 **/
+
+
+/** section-11 **/
+.section-pannel-11 {
+	background: #f17b47;
+}
+.section-pannel-11 .whitewash {
+	width: 505px;
+	height: 423px;
+	background: url(../img/10/layer10_12.png) no-repeat;
+	margin: 80px auto;
+}
+.section-pannel-11 .person {
+	position: absolute;
+	width: 120px;
+	height: 352px;
+	background: url(../img/10/layer10_09.png) no-repeat;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	z-index: 100;
+	margin-top: -330px;
+}
+.section-pannel-11 .desk {
+	width: 198px;
+	height: 225px;
+	background: url(../img/10/layer10_02.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -225px;
+	margin-top: -205px;
+	z-index: 11;
+}
+.section-pannel-11 .easel {
+	width: 145px;
+	height: 272px;
+	background: url(../img/10/layer10_10.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 100px;
+	margin-top: -250px;
+	z-index: 11;
+}
+.section-pannel-11 .taper {
+	width: 83px;
+	height: 92px;
+	background: url(../img/10/layer10_04.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -47px;
+	z-index: 12
+}
+.section-pannel-11 .car {
+	width: 79px;
+	height: 61px;
+	background: url(../img/10/layer10_07.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -168px;
+	margin-top: -13px;
+	z-index: 13
+}
+.section-pannel-11 .pencil {
+	width: 49px;
+	height: 97px;
+	background: url(../img/10/layer10_03.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 170px;
+	margin-top: -60px;
+	z-index: 14
+}
+.section-pannel-11 .pallet {
+	width: 86px;
+	height: 121px;
+	background: url(../img/10/layer10_11.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 200px;
+	margin-top: -83px;
+	z-index: 13
+}
+.section-pannel-11 .zhao-words {
+	width: 129px;
+	height: 98px;
+	background: url(../img/10/layer10_05.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -135px;
+	margin-top: 64px;
+}
+.section-pannel-11 .sheji-words {
+	width: 146px;
+	height: 77px;
+	background: url(../img/10/layer10_06.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: 10px;
+	margin-top: 80px;
+}
+.section-pannel-11 .tip11 {
+	font-size: 1.6rem;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	margin-top: 265px;
+}
+.section-pannel-11 .tip11 .left-tip {
+	width: 100%;
+	left: -140px;
+	position: absolute;
+}
+.section-pannel-11 .tip11 .right-tip {
+	width: 100%;
+	left: 95px;
+	position: absolute;
+}
+/** section-11 结束 **/
 

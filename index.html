@@ -41,7 +41,7 @@
 					<div class="inner"></div>
 				</div>
 			</div>
-			<div class="center"></div>
+			<!-- <div class="center"></div> -->
 			<script type="text/javascript">
 				(function(){
 					var scene_1 = new  ScrollScene({triggerElement:'#section-1', duration: height}).addTo(controller);
@@ -93,7 +93,7 @@
 					<div style="font-size:1.6em">向地沟油和路边摊说不</div>
 				</div>
 			</div>
-			<div class="center"></div>
+			<!-- <div class="center"></div> -->
 			<script type="text/javascript">
 				(function(){					
 					var scene_2 = new  ScrollScene({triggerElement:'#section-2', duration: height}).addTo(controller);
@@ -112,6 +112,241 @@
 
 					scene_2.on('leave',function(){
 						$('#section-2 .section-box').removeClass('show').addClass('hidden');
+					});
+
+
+				})();
+			</script>
+		</div>
+		
+		<div id="section-7" class='section section-pannel-7 '>
+			<div class="section-box hidden">
+				<div class="recom-box"></div>
+				<div class="recom-person"></div>
+				<div class="recom-handle"></div>
+				<div class="p-shadow shadow7"></div>
+				<div class="recomm-circle"></div>
+				<div class="recomm-taper"></div>
+				<div class="recomm-word"></div>
+				<section class="tip7">
+					<p>快把你的好基友，以及你好基友的好基友，</p>
+					<p>好闺蜜及闺蜜的闺蜜，还有多年未联系的老同学，</p>
+					<p>在某某公司被埋没的老熟人都召唤出来吧~~</p>
+				</section>
+			</div>
+			<script tyoe="text/javascript">
+				(function(){					
+					var scene_7 = new  ScrollScene({triggerElement:'#section-7', duration: height}).addTo(controller);
+					scene_7.on('enter',function(){
+						$('#section-7 .section-box').removeClass('hidden').addClass('show');
+						var box = TweenMax.from('.recom-box', 0.5, {y: -height,scale:0, z:0, ease: Linear.easeNone});
+						var person = TweenMax.from('.recom-person', 0.5, {scale:0,alpha: 0, z:0, ease: Linear.easeNone});
+						var shadow = TweenMax.from('.shadow7', 0.5, {alpha:0, z:0, ease: Linear.easeNone});
+						var handle = TweenMax.from('.recom-handle', 0.5, {scale:0, z:0, ease: Linear.easeNone});
+						var circle = TweenMax.from('.recomm-circle', 0.5, {y: -height, z:0, ease: Linear.easeNone});
+						var taper = TweenMax.from('.recomm-taper', 0.5, {y:-height, z:0, ease: Linear.easeNone, delay:0.3});
+						var word = TweenMax.from('.recomm-word', 0.5, {y: height, z:0, ease: Linear.easeNone});
+						var tip = TweenMax.from('.tip7', 0.3, {y: height, z: 0, ease: Linear.easeNone});
+						var scene1 = new TimelineMax().add(person).add(box).add(shadow).add(handle).add(word).add(tip).add([circle,taper]);
+					});
+
+					scene_7.on('leave',function(){
+						$('#section-7 .section-box').removeClass('show').addClass('hidden');
+					});
+
+
+				})();
+			</script>
+		</div>
+
+		<div id="section-8" class='section section-pannel-8 '>
+			<div class="section-box hidden">
+				<div class="tech-desk"></div>
+				<div class="p-shadow shadow8"></div>
+				<div class="tech-chair"></div>
+				<div class="tech-person"></div>
+				<div class="tech-map"></div>
+				<div class="tech-trash"></div>
+				<div class="tech-laptop"></div>
+				<div class="tech-word1"></div>
+				<div class="tech-word2"></div>
+				<section class="tip8">
+					<span class="left-tip">
+						<p>Java开发架构师 </p>
+						<p>mongodb研发工程师</p>
+						<p>MYSQL DBA</p>
+						<p>高级安全研发工程师</p>
+					</span>
+					<span class="right-tip">
+						<p>前端开发工程师</p>
+						<p>前端架构师</p>
+						<p>Openstack开发工程师</p>
+						<p>存储应用开发工程师</p>
+					</span>
+				</section>
+			</div>
+			<script type="text/javascript">
+				(function(){					
+					var scene_8 = new  ScrollScene({triggerElement:'#section-8', duration: height}).addTo(controller);
+					scene_8.on('enter',function(){
+						$('#section-8 .section-box').removeClass('hidden').addClass('show');
+						var desk = TweenMax.from('#section-8 .tech-desk', 0.5, {y: -height, z:0, ease: Linear.easeNone});
+						var chair = TweenMax.from('#section-8 .tech-chair', 0.5, {scale:0, z:0, ease: Linear.easeNone});
+						var shadow = TweenMax.from('#section-8 .shadow8', 0.5, {alpha:0, z:0, ease: Linear.easeNone});
+						var person = TweenMax.from('#section-8 .tech-person', 0.5, {y: -height, z:0, ease: Linear.easeNone});
+						var map = TweenMax.from('#section-8 .tech-map', 0.4, {scale:0, z:0, ease: Linear.easeNone});
+						var laptop = TweenMax.from('.tech-laptop', 0.5, {left: width, z:0, ease: Linear.easeNone});
+						var trash = TweenMax.from('.tech-trash', 0.5, {left: -width, z:0, ease: Linear.easeNone});
+						var word1 = TweenMax.from('.tech-word1', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var word2 = TweenMax.from('.tech-word2', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var tip = TweenMax.from('#section-8 .tip8', 0.3, {y: height, z: 0, ease: Linear.easeNone});
+						var scene1 = new TimelineMax().add(desk).add(shadow).add(chair).add([map,person]).add([laptop,trash]).add([word1,word2]).add(tip);
+					});
+
+					scene_8.on('leave',function(){
+						$('#section-8 .section-box').removeClass('show').addClass('hidden');
+					});
+
+
+				})();
+			</script>
+		</div>
+	
+
+		<div id="section-9" class='section section-pannel-9 '>
+			<div class="section-box hidden">
+				<div class="opr-chart"></div>
+				<div class="opr-kpi"></div>
+				<div class="opr-person"></div>
+				<div class="opr-desk"></div>
+				<div class="p-shadow shadow9"></div>
+				<div class="opr-taper"></div>
+				<div class="opr-shield"></div>
+				<div class="opr-word1"></div>
+				<div class="opr-word2"></div>
+				<div class="tip10">
+					<p class="plat-mng">平台运营经理</p>
+					<p class="storage-mng">云存储运营经理</p>
+					<p class="market-mng">市场总监</p>
+					<p class="forum-mng">论坛运营经理</p>
+				</div>
+			</div>
+			<script type="text/javascript">
+				(function(){					
+					var scene_9 = new  ScrollScene({triggerElement:'#section-9', duration: height}).addTo(controller);
+					scene_9.on('enter',function(){
+						$('#section-9 .section-box').removeClass('hidden').addClass('show');
+						var chart = TweenMax.from('#section-9 .opr-chart', 0.5, {height: 0, z:0, ease: Linear.easeNone});
+						var kpi = TweenMax.from('#section-9 .opr-kpi', 0.3, {scale:0, z:0, ease: Linear.easeNone});
+						var shadow = TweenMax.from('#section-9 .shadow9', 0.5, {alpha:0, z:0, ease: Linear.easeNone});
+						var person = TweenMax.from('#section-9 .opr-person', 0.5, {y: -height, z:0, ease: Linear.easeNone});
+						var desk = TweenMax.from('#section-9 .opr-desk', 0.4, {scale:0, z:0, ease: Linear.easeNone});
+						var taper = TweenMax.from('.opr-taper', 0.5, {left: -width, z:0, ease: Linear.easeNone});
+						var shield = TweenMax.from('.opr-shield', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var word1 = TweenMax.from('.opr-word1', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var word2 = TweenMax.from('.opr-word2', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var tip = TweenMax.from('#section-9 .tip10', 0.3, {y: height, z: 0, ease: Linear.easeNone});
+						var scene1 = new TimelineMax().add(desk).add(person).add(chart).add(kpi).add([taper,shield]).add([word1,word2]).add(tip);
+					});
+
+					scene_9.on('leave',function(){
+						$('#section-9 .section-box').removeClass('show').addClass('hidden');
+					});
+
+
+				})();
+			</script>
+		</div>
+
+		<div id="section-10" class='section section-pannel-10 '>
+			<div class="section-box hidden">
+				<div class="mapbg"></div>
+				<div class="busperson"></div>
+				<div class="cmpdesk"></div>
+				<div class="p-shadow shadow10"></div>
+				<div class="trip"></div>
+				<div class="left-car"></div>
+				<div class="right-taper"></div>
+				<div class="bs-word1"></div>
+				<div class="bs-word2"></div>
+				<div class="tip10">
+					<p class="plat-mng">平台运营经理</p>
+					<p class="storage-mng">云存储运营经理</p>
+					<p class="market-mng">市场总监</p>
+					<p class="forum-mng">论坛运营经理</p>
+				</div>
+			</div>
+			<script type="text/javascript">
+				(function(){					
+					var scene_10 = new  ScrollScene({triggerElement:'#section-10', duration: height}).addTo(controller);
+					scene_10.on('enter',function(){
+						$('#section-10 .section-box').removeClass('hidden').addClass('show');
+						var mapbg = TweenMax.from('#section-10 .mapbg', 0.3, {y: -height, z:0, ease: Linear.easeNone});
+						var busperson = TweenMax.from('#section-10 .busperson', 0.5, {y: -height, z:0, ease: Linear.easeNone});
+						var shadow = TweenMax.from('#section-10 .shadow10', 0.5, {alpha:0, z:0, ease: Linear.easeNone});
+						var cmpdesk = TweenMax.from('#section-10 .cmpdesk', 0.4, {y: -height, z:0, ease: Linear.easeNone});
+						var trip = TweenMax.from('.trip', 0.5, {scale: 0, z:0, ease: Linear.easeNone});
+						var left_car = TweenMax.from('.left-car', 0.3, {left: 2*width, z:0, ease: Linear.easeNone});
+						var right_taper = TweenMax.from('.right-taper', 0.3, {left: -2*width, z:0, ease: Linear.easeNone});
+						var bs_word1 = TweenMax.from('.bs-word1', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var bs_word2 = TweenMax.from('.bs-word2', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var tip = TweenMax.from('#section-10 .tip10', 0.3, {y: height, z: 0, ease: Linear.easeNone});
+						// var tip1 = TweenMax.from('.plat-mng', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						// var tip2 = TweenMax.from('.storage-mng', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						// var tip2 = TweenMax.from('.market-mng', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						// var tip4 = TweenMax.from('.forum-mng', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var scene1 = new TimelineMax().add(mapbg).add(cmpdesk).add(shadow).add(busperson).add(trip).add(left_car).add(right_taper).add([bs_word1,bs_word2]).add(tip);//.add([tip1,tip2,tip3,tip4]);
+					});
+
+					scene_10.on('leave',function(){
+						$('#section-10 .section-box').removeClass('show').addClass('hidden');
+					});
+
+
+				})();
+			</script>
+		</div>
+
+		<div id="section-11" class='section section-pannel-11 '>
+			<div class="section-box hidden">
+				<div class="whitewash"></div>
+				<div class="person"></div>
+				<div class="p-shadow shadow11"></div>
+				<div class="desk"></div>
+				<div class="easel"></div>
+				<div class="taper"></div>
+				<div class="car"></div>
+				<div class="pencil"></div>
+				<div class="pallet"></div>
+				<div class="zhao-words"></div>
+				<div class="sheji-words"></div>
+				<div class="tip11">
+					<p class="left-tip">交互设计</p>
+					<p class="right-tip">UI视觉设计</p>
+				</div>
+			</div>
+			<script type="text/javascript">
+				(function(){					
+					var scene_11 = new  ScrollScene({triggerElement:'#section-11', duration: height}).addTo(controller);
+					scene_11.on('enter',function(){
+						$('#section-11 .section-box').removeClass('hidden').addClass('show');
+						var whitewash = TweenMax.from('.whitewash', 0.3, {y: -height, z:0, ease: Linear.easeNone});
+						var person = TweenMax.from('.person', 0.5, {scale: 0, z:0, ease: Linear.easeNone});
+						var shadow = TweenMax.from('.shadow11', 0.5, {alpha:0, z:0, ease: Linear.easeNone});
+						var desk = TweenMax.from('.desk', 0.4, {y: -height, z:0, ease: Linear.easeNone});
+						var easel = TweenMax.from('.easel', 0.5, {y: -height, z:0, ease: Linear.easeNone});
+						var taper = TweenMax.from('.taper', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var car = TweenMax.from('.car', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var pencil = TweenMax.from('.pencil', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var pallet = TweenMax.from('.pallet', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var zhao_words = TweenMax.from('.zhao-words', 0.3, {left: -width, z:0, ease: Linear.easeNone});
+						var sheji_words = TweenMax.from('.sheji-words', 0.3, {left: width, z:0, ease: Linear.easeNone});
+						var tip = TweenMax.from('.tip11', 0.3, {y: height, z:0, ease: Linear.easeNone});
+						var scene1 = new TimelineMax().add(whitewash).add(person).add(shadow).add([desk, easel]).add([taper,car,pencil,pallet]).add([zhao_words,sheji_words]).add(tip);
+					});
+
+					scene_11.on('leave',function(){
+						$('#section-11 .section-box').removeClass('show').addClass('hidden');
 					});
 
 
