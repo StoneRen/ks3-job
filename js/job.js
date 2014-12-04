@@ -669,7 +669,9 @@ scene_11.on('enter', function() {
 scene_11.on('leave', function() {
 	//$('#section-11 .section-box').removeClass('show').addClass('hidden');
 });
-
+$(window).on('load', function() {
+	$('#next_page').show();
+})
 /** 微信分享 **/
 var IsWeixin =  /MicroMessenger/i.test(navigator.userAgent);
 if(IsWeixin) {
