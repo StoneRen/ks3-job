@@ -46,11 +46,11 @@ scene_1.on('enter', function() {
 				z: 0,
 				ease: Linear.easeNone
 			});
-			var money3 = TweenMax.from('.money-3', 0.8, {
+			var money3 = TweenMax.from('.money-3', 1.2, {
 				y: - height - 200,
 				z: 0,
 				ease: Quad.easeIn,
-				repeat: 0
+				repeat: 10000
 			});
 
 			//var scene = new TimelineMax().add(logo).add(tip1).add([money1,money2]).add(money3);
@@ -676,7 +676,7 @@ if(IsWeixin) {
 	WeixinApi.ready(function(Api){
 		// 要分享的数据
 		var wxData = {
-	        "imgUrl":'http://fmn.rrimg.com/fmn063/20141204/1515/original_kuBk_41620000048c1191.jpg',
+	        "imgUrl":'http://stoneren.github.io/ks3-job/img/wxshare.png',
 	        "link": location.href,
 	        "desc":'有钱，就是这么任性！2015年，金山云一大波职位来袭，你敢接招么？',
 	        "title":"金山云一大波职位来袭"

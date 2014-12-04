@@ -612,14 +612,15 @@ html,body {
 	width: 130px;
 	height: 98px;
 	background: url(../img/9/layer9_06.png) no-repeat;
-	margin-left: -135px;
+	margin-left: -269px;
 	margin-top: 70px;
 }
 .section-pannel-9 .opr-word2 {
-	width: 146px;
-	height: 81px;
-	background: url(../img/8/layer8_06.png) no-repeat;
-	margin-left: 15px;
+	width: 305px;
+	height: 71px;
+	/**background: url(../img/8/layer8_06.png) no-repeat;**/
+	background: url(../img/shangwu.png) no-repeat;
+	margin-left:  -89px;
 	margin-top: 88px;
 }
 .section-pannel-9 .tip10 {
@@ -738,18 +739,37 @@ html,body {
 	width: 100%;
 
 }
+.plat-mng1 {
+	margin-left: -215px;
+	margin-top: -43px; 
+}
+.storage-mng1 {
+	margin-left: 160px;
+	margin-top: -43px; 
+}
 .plat-mng {
 	margin-left: -215px;
+	margin-top: -70px; 
 }
+.market-mng1 {
+	margin-left: -143px;
+	margin-top: 51px;
+}
+.forum-mng1 {
+	margin-left:210px;
+	margin-top: 51px;
+}
+
 .storage-mng {
 	margin-left: 160px;
+	margin-top: -70px; 
 }
 .market-mng {
-	margin-left: -260px;
-	margin-top: 100px;
+	margin-left: -36px;
+	margin-top: 12px;
 }
 .forum-mng {
-	margin-left: 160px;
+	margin-left: -36px;
 	margin-top: 100px;
 }
 /** section-10 结束 **/
@@ -1204,7 +1224,7 @@ html,body {
 
 .section-pannel-6 .tip-6 .inner{
 	width: 465px;
-	height:113px;
+	height:134px;
 	background: url(../img/tip-6.png) no-repeat;
 }
 
