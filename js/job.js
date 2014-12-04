@@ -50,7 +50,7 @@ scene_1.on('enter', function() {
 				y: - height - 200,
 				z: 0,
 				ease: Quad.easeIn,
-				repeat: 10000
+				repeat: 30
 			});
 
 			//var scene = new TimelineMax().add(logo).add(tip1).add([money1,money2]).add(money3);
@@ -669,6 +669,27 @@ scene_11.on('enter', function() {
 scene_11.on('leave', function() {
 	//$('#section-11 .section-box').removeClass('show').addClass('hidden');
 });
+
+
+/*** 12 ***/
+
+var scene_12 = new ScrollScene({
+	triggerElement: '#section-12',
+	duration: height
+}).addTo(controller);
+scene_12.on('enter', function() {
+		setTimeout(function() {
+			$('#section-12 .hand').removeClass('hidden').addClass('show');
+			var hand = TweenMax.from('.hand', 0.3, {
+				y: height,
+				z: 0,
+				ease: Linear.easeNone
+			});
+			//var scene1 = new TimelineMax().add(whitewash).add(person).add(shadow).add([desk, easel]).add([taper,car,pencil,pallet]).add([zhao_words,sheji_words]).add(tip);
+		},
+		600);
+});
+
 
 /** 微信分享 **/
 var IsWeixin =  /MicroMessenger/i.test(navigator.userAgent);
