@@ -1361,7 +1361,6 @@ html,body {
 .section-pannel-12 p,
 .section-pannel-12 .mailto-hr {
 	color: #fff;
-	/*font-size: 3rem;*/
 	display: block;
 
 }
@@ -1369,43 +1368,23 @@ html,body {
 
 @keyframes nextpage {
 	0% {
-		opacity: 0;
-		transform: scale(0.5);
-		bottom: 55px;
-	}
-	25% {
-		opacity: 0.3;
-		transform: scale(0.8);
-		bottom: 50px;
-	}
-	50% {
-		opacity: 0.6;
-		transform: scale(1);
-		bottom: 45px;
-	}
-	75% {
-		opacity: 0;
-		transform: scale(1.1);
-		bottom: 40px;
-	}
-	100% {
-		opacity: 0;
-		transform: scale(1.2);
-		bottom: 40px;
-	}
-}
-@-webkit-keyframes nextpage {
-	0% {
-		/*opacity: 1;*/
-		/*-webkit-transform: scale(0);*/
 		bottom: 80px;
 	}
 	50% {
 		bottom: 40px;
 	}
 	100% {
-		/*opacity: 0;*/
-		/*-webkit-transform: scale(1.8);*/
+		bottom: 80px;
+	}
+}
+@-webkit-keyframes nextpage {
+	0% {
+		bottom: 80px;
+	}
+	50% {
+		bottom: 40px;
+	}
+	100% {
 		bottom: 80px;
 	}
 	
@@ -1413,7 +1392,6 @@ html,body {
 .next-page {
 	width: 3rem;
 	height: 3rem;
-	/*background: url(../img/next_page.png) no-repeat;*/
 	background: transparent;
 	border-left: 5px solid #fff;
 	border-bottom: 5px solid #fff;
@@ -1421,7 +1399,6 @@ html,body {
 	left: 50%;
 	bottom: 40px;
 	margin-left: -1.5rem;
-	/*opacity: 0;*/
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
