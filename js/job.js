@@ -670,6 +670,10 @@ scene_11.on('leave', function() {
 	//$('#section-11 .section-box').removeClass('show').addClass('hidden');
 });
 
+$(window).on('load', function() {
+	$('#next_page').show();
+})
+
 
 /*** 12 ***/
 
@@ -689,7 +693,6 @@ scene_12.on('enter', function() {
 		},
 		1000);
 });
-
 
 /** 微信分享 **/
 var IsWeixin =  /MicroMessenger/i.test(navigator.userAgent);
