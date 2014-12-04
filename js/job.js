@@ -50,7 +50,7 @@ scene_1.on('enter', function() {
 				y: - height - 200,
 				z: 0,
 				ease: Quad.easeIn,
-				repeat: 30
+				repeat: 10
 			});
 
 			//var scene = new TimelineMax().add(logo).add(tip1).add([money1,money2]).add(money3);
@@ -680,14 +680,14 @@ var scene_12 = new ScrollScene({
 scene_12.on('enter', function() {
 		setTimeout(function() {
 			$('#section-12 .hand').removeClass('hidden').addClass('show');
-			var hand = TweenMax.from('.hand', 0.3, {
+			var hand1 = TweenMax.from('.hand', 1.5, {
 				y: height,
 				z: 0,
-				ease: Linear.easeNone
+				ease: Linear.easeNone,
+				repeat:1
 			});
-			//var scene1 = new TimelineMax().add(whitewash).add(person).add(shadow).add([desk, easel]).add([taper,car,pencil,pallet]).add([zhao_words,sheji_words]).add(tip);
 		},
-		600);
+		1000);
 });
 
 

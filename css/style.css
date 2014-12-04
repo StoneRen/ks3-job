@@ -1350,10 +1350,11 @@ html,body {
 }
 .section-pannel-12 .tips12 {
 	position: absolute;
-	bottom: 100px;
+	top: 50%;
 	width: 100%;
 	text-align: center;
 	z-index: 10;
+	margin-top: 204px;
 }
 .section-pannel-12 p {
 	margin-bottom: 30px;
