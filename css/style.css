@@ -30,10 +30,10 @@ body {
 	min-height: 100%;
 }
 .big-text{
-	font-size:2em;
+	font-size:3rem;
 }
 .bigger-text{
-	font-size:3em;
+	font-size:4rem;
 }
 
 
@@ -449,7 +449,7 @@ html,body {
 	width: 100%;
 	text-align: center;
 	top: 50%;
-	font-size: 1.6rem;
+	font-size: 2.7rem;
 	margin-top: 250px;
 	line-height: 1.8
 }
@@ -534,7 +534,7 @@ html,body {
 	width: 100%;
 	text-align: center;
 	margin-top: 185px;
-	font-size: 1.6rem;
+	font-size: 2.8rem;
 }
 .section-pannel-8 .tip8 p {
 	margin-top: 20px;
@@ -543,7 +543,7 @@ html,body {
 	position: absolute;	
 	text-align: left;
 	left: 50%;
-	margin-left: -270px;
+	margin-left: -425px;
 }
 .section-pannel-8 .right-tip {
 	position: absolute;
@@ -627,7 +627,7 @@ html,body {
 	text-align: center;
 	margin-top: 245px;
 	left: 0!important;
-	font-size: 1.6em;
+	font-size: 3rem;
 }
 .section-pannel-9 .tip10 p {
 	position: absolute;
@@ -729,7 +729,7 @@ html,body {
 	text-align: center;
 	top: 50%;
 	margin-top: 275px;
-	font-size: 1.6rem;
+	font-size: 3rem;
 	width: 100%;
 }
 .section-pannel-10 .tip10 p {
@@ -738,18 +738,18 @@ html,body {
 
 }
 .plat-mng {
-	margin-left: -185px;
+	margin-left: -215px;
 }
 .storage-mng {
-	margin-left: 130px;
+	margin-left: 160px;
 }
 .market-mng {
-	margin-left: -185px;
-	margin-top: 60px;
+	margin-left: -260px;
+	margin-top: 100px;
 }
 .forum-mng {
-	margin-left: 130px;
-	margin-top: 60px;
+	margin-left: 160px;
+	margin-top: 100px;
 }
 /** section-10 结束 **/
 
@@ -862,7 +862,7 @@ html,body {
 	margin-top: 80px;
 }
 .section-pannel-11 .tip11 {
-	font-size: 1.6rem;
+	font-size: 3rem;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -871,12 +871,12 @@ html,body {
 }
 .section-pannel-11 .tip11 .left-tip {
 	width: 100%;
-	left: -140px;
+	left: -150px;
 	position: absolute;
 }
 .section-pannel-11 .tip11 .right-tip {
 	width: 100%;
-	left: 95px;
+	left: 105px;
 	position: absolute;
 }
 /** section-11 结束 **/
@@ -1202,4 +1202,66 @@ html,body {
 .section-pannel-4 .cloud1,
 .section-pannel-4 .cloud2 {
 	z-index: 100;
+}
+.section-pannel-12 {
+	background: #ff5555;
+}
+.section-pannel-12 .envir-desk {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 640px;
+	height: 483px;
+	background: url(../img/envir_desk.png) no-repeat;
+	margin-left: -320px;
+	margin-top: -390px;
+}
+.section-pannel-12 b {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 170px;
+	height: 320px;
+	background: url(../img/resum_hand.png) no-repeat;
+	margin-left: 150px;
+}
+.section-pannel-12 .btn-resume {
+	position: absolute;
+	width: 480px;
+	font-size: 4rem;
+	color: #ff5555;
+	background: #C04040;
+	padding-bottom: 3px;
+	left: 50%;
+	margin-left: -240px;
+	bottom: 290px;
+	text-decoration: none;
+	border-radius: 8px;
+
+}
+.section-pannel-12 .btn-resume em {
+	background: #fff;
+	display: block;
+	text-align: center;
+	padding: 25px 0;
+	font-style: normal;
+	border-radius: 8px;
+
+}
+.section-pannel-12 .tips12 {
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+}
+.section-pannel-12 p {
+	margin-bottom: 30px;
+}
+.section-pannel-12 p,
+.section-pannel-12 .mailto-hr {
+	color: #fff;
+	/*font-size: 3rem;*/
+	display: block;
+
 }
