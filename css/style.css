@@ -1141,6 +1141,85 @@ html,body {
 .section-pannel-5 .tip5 div{
 	margin-top:20px;
 }
+
+
+/***/
+.section-pannel-6{
+	background:#bbd80a;
+}
+
+.section-pannel-6 .welcome{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -382px;
+}
+.section-pannel-6 .welcome .inner{
+	width: 555px;
+	height:360px;
+	background: url(../img/welcome.png) no-repeat;
+}
+
+.section-pannel-6 .tree-1{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -82px;
+}
+.section-pannel-6 .tree-1 .inner{
+	width: 35px;
+	height:61px;
+	background: url(../img/tree1.png) no-repeat;
+}
+
+.section-pannel-6 .tree-2{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	margin-left: 263px;
+	margin-top: -82px;
+}
+.section-pannel-6 .tree-2 .inner{
+	width: 35px;
+	height:61px;
+	background: url(../img/tree2.png) no-repeat;
+}
+
+
+
+.section-pannel-6 .tip-6{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	margin-left: -205px;
+	margin-top: 34px;
+}
+
+.section-pannel-6 .tip-6 .inner{
+	width: 465px;
+	height:113px;
+	background: url(../img/tip-6.png) no-repeat;
+}
+
+
+.section-pannel-6 .tip6{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	top: 50%;
+	text-align:center;
+	margin-top: 204px;
+}
+.section-pannel-6 .tip6 div{
+	margin-top:20px;
+}
+
 /** 云在飘呐，飘 **/
 @-webkit-keyframes cloud {
 	0% {
