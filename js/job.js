@@ -670,3 +670,27 @@ scene_11.on('leave', function() {
 	//$('#section-11 .section-box').removeClass('show').addClass('hidden');
 });
 
+/** 微信分享 **/
+var IsWeixin =  /MicroMessenger/i.test(navigator.userAgent);
+if(IsWeixin) {
+	WeixinApi.ready(function(Api){
+		// 要分享的数据
+		var wxData = {
+	        "imgUrl":'http://fmn.rrimg.com/fmn063/20141204/1515/original_kuBk_41620000048c1191.jpg',
+	        "link": location.href,
+	        "desc":'有钱，就是这么任性！2015年，金山云一大波职位来袭，你敢接招么？',
+	        "title":"金山云一大波职位来袭"
+	    };
+	    // 分享之后的回调
+	    var wxCallbacks = {
+	    	ready:function () {},
+	    	cancel:function (resp) {},
+	    	fail:function (resp) {},
+	    	confirm:function (resp) {},
+	    	all:function (resp) {}
+	    };
+	    Api.shareToFriend(wxData, wxCallbacks); // 分享给好友
+	    Api.shareToTimeline(wxData, wxCallbacks); // 分享到朋友圈
+	});
+}
+
