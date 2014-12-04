@@ -1268,8 +1268,12 @@ html,body {
 }
 .cloud1,
 .cloud2,
+.cloud3,
+.cloud4,
 .cloud1:after,
-.cloud2:after {
+.cloud2:after,
+.cloud3:after,
+.cloud4:after {
 	position: absolute;
 	width: 100%;
 	height: 70px;
@@ -1277,13 +1281,15 @@ html,body {
 	top: 40px!important;
 }
 .cloud1,
-.cloud2 {
+.cloud2,
+.cloud3,
+.cloud4 {
 	background: url(../img/cloud-1.png) 10% 0 no-repeat;
-	-webkit-animation: cloud 50s 0 infinite linear;
-	-moz-animation: cloud 50s 0 infinite linear;
-	-ms-animation: cloud 50s 0 infinite linear;
-	-o-animation: cloud 50s 0 infinite linear;
-	animation: cloud 50s 0 infinite linear;
+	-webkit-animation: cloud 30s 0 infinite linear;
+	-moz-animation: cloud 30s 0 infinite linear;
+	-ms-animation: cloud 30s 0 infinite linear;
+	-o-animation: cloud 30s 0 infinite linear;
+	animation: cloud 30s 0 infinite linear;
 }
 .cloud2,
 .cloud2:after {
@@ -1292,10 +1298,23 @@ html,body {
 .cloud1:after {
 	background: url(../img/cloud-1.png) 10% 0 no-repeat;
 }
+
+.cloud3,
+.cloud3:after {
+	top: 80px !important;
+	background: url(../img/cloud-2.png) 30% 0 no-repeat;
+}
+.cloud4,
+.cloud4:after {
+	top: 80px !important;
+	background: url(../img/cloud-1.png) 60% 0 no-repeat;
+}
 .cloud1:after,
-.cloud2:after {
+.cloud2:after,
+.cloud3:after,
+.cloud4:after {
 	content: '';
-	left: 100%;
+	left: 100%!important;;
 	top:0!important;
 	
 }
