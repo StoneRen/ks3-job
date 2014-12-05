@@ -1344,11 +1344,11 @@ html,body {
 	height: 483px;
 	background: url(../img/envir_desk.png) no-repeat;
 	margin-left: -320px;
-	margin-top: -390px;
+	margin-top: -490px;
 }
 .section-pannel-12 b {
 	position: absolute;
-	bottom: 0;
+	bottom: -31px;
 	left: 50%;
 	width: 170px;
 	height: 320px;
@@ -1364,7 +1364,7 @@ html,body {
 	padding-bottom: 3px;
 	left: 50%;
 	margin-left: -240px;
-	bottom: 290px;
+	bottom: 210px;
 	text-decoration: none;
 	border-radius: 8px;
 
@@ -1384,7 +1384,7 @@ html,body {
 	width: 100%;
 	text-align: center;
 	z-index: 10;
-	margin-top: 144px;
+	margin-top: 44px;
 }
 .section-pannel-12 p {
 	margin-bottom: 30px;

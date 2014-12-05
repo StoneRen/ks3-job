@@ -592,7 +592,7 @@ function scene_11() {
 function scene_12() {
 	setTimeout(function() {
 		$('#section-12 .hand').removeClass('hidden').addClass('show');
-		var hand1 = TweenMax.from('.hand', 1.5, {
+		var hand1 = TweenMax.from('.hand', 1, {
 			y: height,
 			z: 0,
 			ease: Linear.easeNone,
