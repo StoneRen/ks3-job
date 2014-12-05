@@ -18,11 +18,7 @@ var once = {
 };
 
 /*** 1 ***/
-var scene_1 = new ScrollScene({
-	triggerElement: '#section-1',
-	duration: height
-}).addTo(controller);
-scene_1.on('enter', function() {
+function scene_1() {
 	if (!once.p1) {
 		setTimeout(function() {
 			$('#section-1 .section-box').removeClass('hidden').addClass('show');
@@ -50,7 +46,7 @@ scene_1.on('enter', function() {
 				y: - height - 200,
 				z: 0,
 				ease: Quad.easeIn,
-				repeat: 10
+				repeat: 5
 			});
 
 			//var scene = new TimelineMax().add(logo).add(tip1).add([money1,money2]).add(money3);
@@ -58,18 +54,11 @@ scene_1.on('enter', function() {
 		300);
 	}
 	once.p1 = true;
-
-});
-scene_1.on('leave', function() {
-	//$('#section-1 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 2 ****/
-var scene_2 = new ScrollScene({
-	triggerElement: '#section-2',
-	duration: height
-}).addTo(controller);
-scene_2.on('enter', function() {
+
+function scene_2(){
 	if (!once.p2) {
 		setTimeout(function() {
 			$('#section-2 .section-box').removeClass('hidden').addClass('show');
@@ -118,19 +107,11 @@ scene_2.on('enter', function() {
 		300);
 	}
 	once.p2 = true;
-});
-
-scene_2.on('leave', function() {
-	//$('#section-2 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /**** 3 ****/
 
-var scene_3 = new ScrollScene({
-	triggerElement: '#section-3',
-	duration: height
-}).addTo(controller);
-scene_3.on('enter', function() {
+function scene_3() {
 	if (!once.p3) {
 		setTimeout(function() {
 			$('#section-3 .section-box').removeClass('hidden').addClass('show');
@@ -181,18 +162,11 @@ scene_3.on('enter', function() {
 		300);
 	}
 	once.p3 = true;
-});
-scene_3.on('leave', function() {
-	//$('#section-3 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 4 ***/
 
-var scene_4 = new ScrollScene({
-	triggerElement: '#section-4',
-	duration: height
-}).addTo(controller);
-scene_4.on('enter', function() {
+function scene_4() {
 	if (!once.p4) {
 		setTimeout(function() {
 			$('#section-4 .section-box').removeClass('hidden').addClass('show');
@@ -218,17 +192,10 @@ scene_4.on('enter', function() {
 		300);
 	}
 	once.p4 = true;
-});
-scene_4.on('leave', function() {
-	//$('#section-4 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 5 ***/
-var scene_5 = new ScrollScene({
-	triggerElement: '#section-5',
-	duration: height
-}).addTo(controller);
-scene_5.on('enter', function() {
+function scene_5() {
 	if (!once.p5) {
 		setTimeout(function() {
 			$('#section-5 .section-box').removeClass('hidden').addClass('show');
@@ -264,17 +231,10 @@ scene_5.on('enter', function() {
 		300);
 	}
 	once.p5 = true;
-});
-scene_5.on('leave', function() {
-	//$('#section-5 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 6 ***/
-var scene_6 = new ScrollScene({
-	triggerElement: '#section-6',
-	duration: height
-}).addTo(controller);
-scene_6.on('enter', function() {
+function scene_6() {
 	if (!once.p6) {
 		setTimeout(function() {
 			$('#section-6 .section-box').removeClass('hidden').addClass('show');
@@ -309,16 +269,9 @@ scene_6.on('enter', function() {
 		300);
 	}
 	once.p6 = true;
-});
-scene_6.on('leave', function() {
-	//$('#section-6 .section-box').removeClass('show').addClass('hidden');
-});
-/*** 7 ***/
-var scene_7 = new ScrollScene({
-	triggerElement: '#section-7',
-	duration: height
-}).addTo(controller);
-scene_7.on('enter', function() {
+}
+/*** 7 ***/ 
+function scene_7() {
 	if (!once.p7) {
 		setTimeout(function() {
 			$('#section-7 .section-box').removeClass('hidden').addClass('show');
@@ -369,18 +322,10 @@ scene_7.on('enter', function() {
 		300);
 	}
 	once.p7 = true;
-});
-
-scene_7.on('leave', function() {
-	//$('#section-7 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 8 ***/
-var scene_8 = new ScrollScene({
-	triggerElement: '#section-8',
-	duration: height
-}).addTo(controller);
-scene_8.on('enter', function() {
+function scene_8() {
 	if (!once.p8) {
 		setTimeout(function() {
 			$('#section-8 .section-box').removeClass('hidden').addClass('show');
@@ -439,18 +384,10 @@ scene_8.on('enter', function() {
 		300);
 	}
 	once.p8 = true;
-});
-
-scene_8.on('leave', function() {
-	//$('#section-8 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 9 ***/
-var scene_9 = new ScrollScene({
-	triggerElement: '#section-9',
-	duration: height
-}).addTo(controller);
-scene_9.on('enter', function() {
+function scene_9() {
 	if (!once.p9) {
 		setTimeout(function() {
 
@@ -510,18 +447,10 @@ scene_9.on('enter', function() {
 		300);
 	}
 	once.p9 = true;
-});
-
-scene_9.on('leave', function() {
-	//$('#section-9 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 10 ***/
-var scene_10 = new ScrollScene({
-	triggerElement: '#section-10',
-	duration: height
-}).addTo(controller);
-scene_10.on('enter', function() {
+function scene_10() {
 	if (!once.p10) {
 		setTimeout(function() {
 			$('#section-10 .section-box').removeClass('hidden').addClass('show');
@@ -584,18 +513,10 @@ scene_10.on('enter', function() {
 		300);
 	}
 	once.p10 = true;
-});
-
-scene_10.on('leave', function() {
-	//$('#section-10 .section-box').removeClass('show').addClass('hidden');
-});
+}
 
 /*** 11 ***/
-var scene_11 = new ScrollScene({
-	triggerElement: '#section-11',
-	duration: height
-}).addTo(controller);
-scene_11.on('enter', function() {
+function scene_11() {
 	if (!once.p11) {
 		setTimeout(function() {
 			$('#section-11 .section-box').removeClass('hidden').addClass('show');
@@ -664,57 +585,70 @@ scene_11.on('enter', function() {
 		300);
 	}
 	once.p11 = true;
-});
-
-scene_11.on('leave', function() {
-	//$('#section-11 .section-box').removeClass('show').addClass('hidden');
-});
-
-$(window).on('load', function() {
-	$('#next_page').show();
-})
-
+}
 
 /*** 12 ***/
 
-var scene_12 = new ScrollScene({
-	triggerElement: '#section-12',
-	duration: height
-}).addTo(controller);
-scene_12.on('enter', function() {
-		setTimeout(function() {
-			$('#section-12 .hand').removeClass('hidden').addClass('show');
-			var hand1 = TweenMax.from('.hand', 1.5, {
-				y: height,
-				z: 0,
-				ease: Linear.easeNone,
-				repeat:1
-			});
-		},
-		1000);
-});
+function scene_12() {
+	setTimeout(function() {
+		$('#section-12 .hand').removeClass('hidden').addClass('show');
+		var hand1 = TweenMax.from('.hand', 1.5, {
+			y: height,
+			z: 0,
+			ease: Linear.easeNone,
+			repeat: 1
+		});
+	},
+	1000);
+};
+var scenes = [scene_1,scene_2,scene_3,scene_4,scene_5,scene_6,scene_7,scene_8,scene_9,scene_10,scene_11,scene_12];
 
 /** 微信分享 **/
-var IsWeixin =  /MicroMessenger/i.test(navigator.userAgent);
-if(IsWeixin) {
-	WeixinApi.ready(function(Api){
+var IsWeixin = /MicroMessenger/i.test(navigator.userAgent);
+if (IsWeixin) {
+	WeixinApi.ready(function(Api) {
 		// 要分享的数据
 		var wxData = {
-	        "imgUrl":'http://stoneren.github.io/ks3-job/img/wxshare.png',
-	        "link": location.href,
-	        "desc":'有钱，就是这么任性！2015年，金山云一大波职位来袭，你敢接招么？',
-	        "title":"金山云一大波职位来袭"
-	    };
-	    // 分享之后的回调
-	    var wxCallbacks = {
-	    	ready:function () {},
-	    	cancel:function (resp) {},
-	    	fail:function (resp) {},
-	    	confirm:function (resp) {},
-	    	all:function (resp) {}
-	    };
-	    Api.shareToFriend(wxData, wxCallbacks); // 分享给好友
-	    Api.shareToTimeline(wxData, wxCallbacks); // 分享到朋友圈
+			"imgUrl": 'http://stoneren.github.io/ks3-job/img/wxshare.png',
+			"link": location.href,
+			"desc": '有钱，就是这么任性！2015年，金山云一大波职位来袭，你敢接招么？',
+			"title": "金山云一大波职位来袭"
+		};
+		// 分享之后的回调
+		var wxCallbacks = {
+			ready: function() {},
+			cancel: function(resp) {},
+			fail: function(resp) {},
+			confirm: function(resp) {},
+			all: function(resp) {}
+		};
+		Api.shareToFriend(wxData, wxCallbacks); // 分享给好友
+		Api.shareToTimeline(wxData, wxCallbacks); // 分享到朋友圈
 	});
 }
+
+$(window).on('load', function() {
+	$('.next-page').show();
+	$('.swiper-container, .swiper-slide').height(height);
+	/**
+	$('.next-page').click(function() {
+		var _currTop = $(window).scrollTop();
+		$(window).scrollTop(_currTop + height)
+	});
+	/**/
+
+	scenes[0]();
+	var mySwiper = new Swiper('.swiper-container', {
+		mode: 'vertical',
+		onSlideChangeEnd: function(swiper, direction) {
+			var index = swiper.activeIndex;
+			var obj = $(".swiper-slide");
+			obj.eq(index).siblings().find(".section-box").addClass('hide');
+			obj.eq(index).find(".section-box").removeClass("hide");
+			scenes[index]();
+		},
+		loop: false
+	});
+
+});
 
